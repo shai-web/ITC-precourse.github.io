@@ -1,0 +1,304 @@
+@font-face {
+font-family: ComicBoys;
+src: url(./fonts/ComicBoys.otf);
+}
+
+@font-face {
+  font-family: Eastman-Trial;
+  src: url(./fonts/EastmanTrial-Regular.otf);
+}
+
+@font-face {
+  font-family: Eastman-Trial;
+  src: url(./fonts/EastmanTrial-Bold.otf);
+}
+
+@font-face {
+  font-family: Eastman-Trial;
+  src: url(./fonts/EastmanTrial-Extrabold.otf);
+}
+
+@font-face {
+  font-family: Eastman-Trial;
+  src: url(./fonts/EastmanTrial-Light.otf);
+}
+
+.head-room{
+padding-top: 90px;
+}
+
+a:link{
+  text-decoration: none;
+  color: darkred;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: darksalmon;
+
+}
+
+ol {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ol li {
+  display: inline-block
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-image: url("./img/comicbg1.jpg");
+  font-size: 1rem;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 50%;
+  margin-left: 1em;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  border: 3px solid black;
+  border-radius: 3%;
+  background-color: rgba(255,255,255,0.75);
+  padding: 0.5rem;
+}
+
+#contact{
+  width: 60%;
+}
+
+button {
+  background-color: #ff70b8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px; 
+  padding: 0px;
+  text-align: center;
+  width: 120px;
+}
+
+.child-iframe {
+  flex-wrap: nowrap;
+}
+
+.card {
+  align-items: center;
+  background: radial-gradient(circle, rgb(238, 169, 198) 0%, rgba(255,255,255,1) 50%);
+  border-radius: 1px;
+  border: solid black 5px;
+  -webkit-box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: #dd2697;
+  }
+}
+
+.pulse:hover {
+  animation: pulse 1.5s;
+  background: inherit;
+}
+
+@keyframes crazy {
+
+  0% {
+    transform: rotate(0deg);
+    left: 0px;
+  }
+  25% {
+    transform: rotate(20deg);
+    left: 0px;
+  }
+  50% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+  55% {
+    transform: rotate(0deg);
+    left: 500px;
+  }
+  70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #1ec7e6;
+  }
+  100% {
+    transform: rotate(-360deg);
+    left: 0px;
+  }
+}
+
+.crazy:active {
+  animation: crazy 6s;
+}
+
+.main-nav {
+  border: none;
+  background-color: rgba(247, 247, 247, 0.6);
+  position: fixed;
+  height: 90px; 
+  float: none;
+  top: 0; 
+  width: 100%;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  border: none;
+  padding: 0;
+}
+.main-nav li {
+  border: 2px solid black;
+  width: 8rem;
+  background-color: #ffdbed;
+  display: inline-block;
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+
+
+}
+.main-nav a {
+  border: 5px solid white;
+  font-size: 1.5rem;
+  color: black;
+  -webkit-text-stroke: 0.3px solid white;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 0.3rem;}
+
+.main-nav a:hover {
+  background-color: #ff70b8;
+  color:black;
+  font-family: "ComicBoys";
+  font-weight: lighter;
+  font-size: 2rem;
+
+}
+
+/* .nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+  font-size: 18px;
+  margin: 15px;
+  text-decoration: none;
+} */
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  height: 180px;
+  margin: 50px;
+  width: 180px;
+}
+
+#full-stack-development {
+  padding: -5px;
+  margin: -5px;
+
+}
+
+#name-and-title {
+  text-align: center;
+}
+
+
+#tabs li{
+  display: inline-block;
+  width:  40px;
+  height: 40px;
+  object-fit: cover;
+  font-size: 0.5rem;
+  text-decoration: none;
+  font-style: normal;
+  align-items: stretch;
+}
+
+/* AboutME  */
+
+#geography-list{
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+/* Contact Form */
+
+  .form-labels{
+  font: lighter;
+  display:inline-block;
+  width: 30%;
+  margin-left: 1em;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 3%;
+  background-color: rgba(255,255,255,0.75);
+  padding: 0.5rem;
+  }
+  
+  label{
+    padding: 5px 0px 5px 0px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+    text-indent: 0.5rem;
+
+}
+
+#colorimportant {
+  display: inline-block; 
+    float: right;
+    clear: left;
+    width: 100%;
+    text-align: Left;
+    text-indent: 30%;
+    padding: 5px 0px 5px 0px;
+}
+
+input{
+margin: 5px 0px  5px 0px;
+text-align: right;
+text-indent: 30%;
+}
+
+#submit {
+  text-indent: 0%;
+}
+
+#color-check{
+  display: inline-block; 
+    width: 5em;
+    height: 5em;
+    border: none;
+    background: none 
+  
+}
+

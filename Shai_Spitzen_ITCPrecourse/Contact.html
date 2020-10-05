@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="head-room"></div>
+    
+    <section class="main">
+    <h1>Contact Me</h1>      
+    <h5>Fill the form and i'll get back to you really soon...</h5>
+    </section>
+
+    <section>
+        <form action="index.php" method="post" id="contact">
+            <div class="main">
+
+            <label for="first-name">First Name</label>
+            <input id="first-name" required onchange="validateForm()"></input><br>
+
+            <label for=":last-Name">Last Name</label>
+            <input id="last-name"></input><br>
+
+            <label for="my-email">Email</label>
+            <input type="email" id="my-email" required onchange="validateForm()"><br> 
+
+            <label for="comment">Comment</label>
+            <textarea id="comment" placeholder="let me know..." required onchange="validateForm()"></textarea><br>
+
+            <label for="color">your favorite color</label>
+            <br>
+            <br>
+            <input type="color" id="color-check" value="#ffdbed" required onclick = "validateForm()"><br><h10 id=colorimportant> is important for our future work</h10> <br>
+            <br>
+
+            <input id="submit" type="submit" value="submit" onclick="submitForm()">
+
+        </div>
+
+
+
+        </form>
+
+    </section>
+    
+    <footer id="footer"></footer>
+    <script src="portfolio.js"></script>
+    <script src="contact.js"></script>
+    </body>
+</html>
