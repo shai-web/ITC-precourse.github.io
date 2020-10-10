@@ -1,4 +1,4 @@
-// About Me - G-MAP Iframe //
+// About Me - G-MAP Iframe 
 
 let index = 0;
 let ol = document.getElementById("geography-list");
@@ -49,11 +49,11 @@ function show() {
   hidePrev()
   hideNext()
   let iframe = document.getElementById("location-iframe");
-  iframe.src = linkByCity[city];
+  iframe.src = linkByCity[city]; //current city name
 
 }
 
-function init() {
+function init() { //it'actually a mistake, copied from google, can call show() in window.
   show()
 }
 

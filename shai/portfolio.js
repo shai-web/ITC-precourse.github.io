@@ -1,19 +1,27 @@
 //HTML, CSS and JavaScript
 
-var languages = [
+let languages = [
   "HTML",
   "CSS",
-  "JavaScript"
+  "JavaScript",
 ];
 
-document.getElementById("footer").innerText = "This page was built using:";
 
-for (let i = 0; i < languages.length;i++) {
-  document.getElementById("footer").innerText += " " + languages[i];
-  if (i==languages.length-2) {
-    document.getElementById("footer").innerText += " and";
+let length = languages.length;
+
+let langText = "This page was built using:";
+
+for (let i = 0; i < length;i++) {
+    langText += " " + languages[i];
+  if (i==length-2) {
+    langText += " and";
   }
-  else if (i<languages.length-2) {
-    document.getElementById("footer").innerText += ",";
+  else if (i < length-2) {
+    langText += ",";
   }
+
 }
+
+document.getElementById("footer").innerText = langText;  
+
+

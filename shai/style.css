@@ -67,10 +67,6 @@ body {
   padding: 0.5rem;
 }
 
-#contact{
-  width: 60%;
-}
-
 button {
   background-color: #ff70b8;
   border: none;
@@ -160,6 +156,7 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
 }
 
 .main-nav ul {
+  margin-left: 1em;
   list-style-type: none;
   border: none;
   padding: 0;
@@ -248,9 +245,16 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
 }
 /* Contact Form */
 
+
+#contact{
+  width: 70%;
+}
+
+
   .form-labels{
   font: lighter;
   display:inline-block;
+  float: left;
   width: 30%;
   margin-left: 1em;
   margin-bottom: 0px;
@@ -275,7 +279,7 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
 
 #colorimportant {
   display: inline-block; 
-    float: right;
+    float: center;
     clear: left;
     width: 100%;
     text-align: Left;
@@ -302,3 +306,30 @@ text-indent: 30%;
   
 }
 
+#call-image-frame {
+  width: 12%;
+  height: 46.9%;  object-fit: contain;
+  position:fixed;
+  background-image: url("img/ContactImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.inline {
+  display: inline-block;
+  float: left;
+}
+
+#contact-head {
+
+}
+
+#footer {
+  position: absolute;
+}

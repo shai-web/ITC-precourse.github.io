@@ -15,14 +15,16 @@
 
     <div class="head-room"></div>
     
-    <section class="main">
+    <section class="main" id = "contact-head">
     <h1>Contact Me</h1>      
     <h5>Fill the form and i'll get back to you really soon...</h5>
     </section>
 
     <section>
+    
+      <div>
         <form action="index.php" method="post" id="contact">
-            <div class="main">
+          <div class="main inline">
 
             <label for="first-name">First Name</label>
             <input id="first-name" required onchange="validateForm()"></input><br>
@@ -43,17 +45,22 @@
             <br>
 
             <input id="submit" type="submit" value="submit" onclick="submitForm()">
-
+          </div>
+        </form>
+        
+        <div class="main inline" id="call-image-frame">
+          <div id="call-image">
+            
+          </div>
         </div>
 
-
-
-        </form>
-
+      </div>
     </section>
-    
+
     <footer id="footer"></footer>
+    
     <script src="portfolio.js"></script>
     <script src="contact.js"></script>
+
     </body>
 </html>
