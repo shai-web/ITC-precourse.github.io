@@ -316,7 +316,9 @@ text-indent: 30%;
 }
 
 
-
+#contact-form {
+  position: absolute;
+}
 
 
 
@@ -331,5 +333,5 @@ text-indent: 30%;
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
 }
