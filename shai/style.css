@@ -247,7 +247,7 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
 
 
 #contact{
-  width: 70%;
+  width: 100%%;
 }
 
 
@@ -255,7 +255,7 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
   font: lighter;
   display:inline-block;
   float: left;
-  width: 30%;
+  width: 50%;
   margin-left: 1em;
   margin-bottom: 0px;
   margin-top: 15px;
@@ -317,7 +317,8 @@ text-indent: 30%;
 
 
 #contact-form {
-  position: absolute;
+  display: inline-block;
+
 }
 
 
@@ -333,5 +334,4 @@ text-indent: 30%;
 }
 
 #footer {
-  position: fixed;
 }
