@@ -307,18 +307,20 @@ text-indent: 30%;
 }
 
 #call-image-frame {
-  height: 46.9%;  object-fit: contain;
+  height: 350px;  object-fit: contain;
+  width: 180px;
   position:fixed;
   background-image: url("img/ContactImg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
+/*
 #contact{
   width: 30%;
 }
 
+*/
 
 
 .inline {
@@ -329,6 +331,11 @@ text-indent: 30%;
 #contact-form {
   display: inline-block;
 
+}
+
+#form-label {
+  height: 46.9%;
+  width: 500px;
 }
 
 #footer {
