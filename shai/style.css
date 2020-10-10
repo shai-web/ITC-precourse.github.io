@@ -27,6 +27,10 @@ src: url(./fonts/ComicBoys.otf);
 padding-top: 90px;
 }
 
+section {
+  width: 50%;
+}
+
 a:link{
   text-decoration: none;
   color: darkred;
@@ -57,7 +61,6 @@ body {
 }
 
 .main {
-  width: 50%;
   margin-left: 1em;
   margin-bottom: 0px;
   margin-top: 15px;
@@ -246,9 +249,6 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
 /* Contact Form */
 
 
-#contact{
-  width: 100%%;
-}
 
 
   .form-labels{
@@ -315,11 +315,9 @@ text-indent: 30%;
 }
 
 
-#contact-form {
-  display: inline-block;
-
+#contact{
+  width: 30%;
 }
-
 
 
 
