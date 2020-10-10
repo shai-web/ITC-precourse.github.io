@@ -252,10 +252,10 @@ box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.75);
 
 
   .form-labels{
+  width: 600px;
   font: lighter;
   display:inline-block;
   float: left;
-  width: 50%;
   margin-left: 1em;
   margin-bottom: 0px;
   margin-top: 15px;
@@ -307,7 +307,6 @@ text-indent: 30%;
 }
 
 #call-image-frame {
-  width: 12%;
   height: 46.9%;  object-fit: contain;
   position:fixed;
   background-image: url("img/ContactImg.jpg");
