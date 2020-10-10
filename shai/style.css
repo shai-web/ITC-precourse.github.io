@@ -323,9 +323,11 @@ text-indent: 30%;
 
 .inline {
   display: inline-block;
+  float: left;
 }
 
-#contact-head {
+#contact-form {
+  display: inline-block;
 
 }
 
